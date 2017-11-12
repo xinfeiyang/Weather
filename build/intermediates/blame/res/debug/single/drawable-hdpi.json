@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\WorkSpace\\AndroidStuido\\MyApp\\weather\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_home.png",
+        "source": "D:\\WorkSpace\\AndroidStuido\\MyApp\\weather\\src\\main\\res\\drawable-hdpi\\ic_home.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\AndroidStuido\\MyApp\\weather\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_back.png",
+        "source": "D:\\WorkSpace\\AndroidStuido\\MyApp\\weather\\src\\main\\res\\drawable-hdpi\\ic_back.png"
+    }
+]

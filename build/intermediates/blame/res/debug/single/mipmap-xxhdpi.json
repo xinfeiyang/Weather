@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\WorkSpace\\AndroidStuido\\MyApp\\weather\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\WorkSpace\\AndroidStuido\\MyApp\\weather\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\AndroidStuido\\MyApp\\weather\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "D:\\WorkSpace\\AndroidStuido\\MyApp\\weather\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    }
+]

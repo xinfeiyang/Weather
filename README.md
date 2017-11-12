@@ -21,7 +21,13 @@ class MyCountTimer extends CountDownTimer {
 }
 
 MyCountTimer  timer = new MyCountTimer(60000,1000);
+
 timer.start();
+
+
+
+
+
 
 #创建定时任务;
 

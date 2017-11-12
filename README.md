@@ -1,4 +1,28 @@
-创建定时任务;
+#Android的倒计时计数器
+/**
+ *Android提供的倒计时计时器;
+ */
+class MyCountTimer extends CountDownTimer {
+
+    public MyCountTimer(long millisInFuture, long countDownInterval) {
+        super(millisInFuture, countDownInterval);
+    }
+    @Override
+    public void onTick(long millisUntilFinished) {
+        tv_send.setEnabled(false);
+        tv_send.setText((millisUntilFinished / 1000) +"秒后重发");
+    }
+    @Override
+    public void onFinish() {
+        tv_send.setEnabled(true);
+        tv_send.setText("重新发送验证码");
+    }
+}
+
+MyCountTimer  timer = new MyCountTimer(60000,1000);
+timer.start();
+
+#创建定时任务;
 
 AlarmManager manager= (AlarmManager) getSystemService(Context.ALARM_SERVICE);
 

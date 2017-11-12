@@ -35,7 +35,7 @@ AlarmManager manager= (AlarmManager) getSystemService(Context.ALARM_SERVICE);
 
 //每隔两个小时执行一次;
 
-int time=2*60*60*1000;
+int time= 2* 60* 60* 1000;
 
 long triggerAtTime= SystemClock.elapsedRealtime()+time;
 
